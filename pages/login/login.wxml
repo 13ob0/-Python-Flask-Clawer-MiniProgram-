@@ -1,0 +1,51 @@
+<view class="container">
+  <view class="login-icon">
+    <image class="login-img" src="../../img/index.jpg" mode="widthFix"></image>
+  </view>
+  <view class="login-from">
+ 
+    <!--账号-->
+    <view class="inputView">
+      <image class="nameImage"></image>
+      <label class="loginLab">学号</label>
+      <input class="inputText" placeholder="请输入学号" bindinput="inputNum" type='number'/>
+    </view>
+    <view class="line"></view>
+ 
+    <!--密码-->
+    <view class="inputView">
+      <image class="keyImage"></image>
+      <label class="loginLab">密码</label>
+      <input class="inputText" password="true" placeholder="请输入密码" bindinput="inputPw" />
+    </view>
+    <view class="line"></view>
+
+    <view class="inputView">
+      <image class="codeImage" bindtap='refresh' src='{{src}}'></image>
+      <input class="inputText" placeholder="请输入验证码" bindinput="inputCode"/>
+    </view>
+ 
+    <!--按钮-->
+    <view class="loginBtnView">
+      <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login" style='background:#7d0000'>登录</button>
+    </view>
+  </view>
+</view>
+
+
+
+
+
+
+
+
+
+<!-- <view>
+  <input bindinput='inputNum' type='number' placeholder='学号'></input>
+  <input bindinput='inputPw' placeholder='密码'></input>
+  <input bindinput='inputCode' placeholder='验证码'></input>
+  <image src='http://www.###.com.cn:5000/img/code.jpg?{{timestamp}}'></image>
+  <button bindtap='login'>登录</button>
+  <button bindtap="getTable">获取课表</button>
+</view>
+ -->

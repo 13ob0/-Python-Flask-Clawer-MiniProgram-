@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/login/login",
+    "pages/table/table",
+    "pages/scores/scores",
+    "pages/note/note",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7d0000",
+    "navigationBarTitleText": "上课了么",
+    "navigationBarTextStyle":"white"
+  },
+
+  "tabBar": {
+    "backgroundColor": "#7d0000",
+    "color": "#fff",
+    "selectedColor": "#fff",
+    "position": "top",
+    "list": [
+      {
+        "pagePath": "pages/table/table",
+        "text": "课程表"
+      },
+      {
+        "pagePath": "pages/scores/scores",
+        "text": "成绩"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "通知公告"
+      }
+    ]
+  }
+}

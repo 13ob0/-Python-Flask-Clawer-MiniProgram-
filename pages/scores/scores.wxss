@@ -1,0 +1,140 @@
+.page-wrapper {
+    margin: 0;
+    font-size: 28rpx;
+    line-height: 1.5;
+    color: #333;
+    background-color: #efefef;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    min-height:2000rpx;
+}
+
+.score-list .score-list-item {
+    position: relative;
+    height: 160rpx;
+    background-color: #fff;
+    margin: 16rpx 0;
+    border: 2rpx solid #e5e5e5;
+    border-width: 2rpx 0;
+}
+
+.score-list .score-list-item::before,.score-list .score-list-item::after {
+    position: absolute;
+    left: 122rpx;
+    content: '';
+    width: 24rpx;
+    height: 12rpx;
+    background-color: #efefef;
+    border: 2rpx solid #e5e5e5;
+}
+
+.score-list .score-list-item::before {
+    border-radius: 0 0 60rpx 60rpx;
+    border-top: none;
+    top: -2rpx;
+}
+
+.score-list .score-list-item::after {
+    border-radius: 60rpx 60rpx 0 0;
+    border-bottom: none;
+    bottom: -2rpx;
+}
+
+.score-list .score-list-item .score-time {
+    position: absolute;
+    left: 0;
+    width: 134rpx;
+    height: 100rpx;
+    line-height: 100rpx;
+    margin: 30rpx 0;
+    color: #7d0000;
+    text-align: center;
+    font-size: 40rpx;
+    font-family: Arial;
+    border-right: 2rpx dashed #e5e5e5;
+}
+
+.score-list .score-list-item .scoreinfo {
+    background-color: #7d0000;
+    position: absolute;
+    right: 0;
+    width: 120rpx;
+    height: 160rpx;
+    line-height: 80rpx;
+    text-align: center;
+    word-wrap: break-all;
+    color: #fff;
+    font-size: 30rpx;
+}
+
+.score-list .score-list-item.disabled .scoreinfo {
+    background-color: #c5c5c5;
+}
+
+.score-list .score-list-item .detail {
+    height: 80rpx;
+    padding: 36rpx 0;
+    margin: 0 140rpx 0 144rpx;
+}
+
+.score-list .score-list-item .detail  .sub-list{
+    height: 52rpx;
+}
+
+
+.score-list .score-list-item .start, .score-list .score-list-item .end {
+    color: #333333;
+    font-size: 26rpx;
+    text-align: center;
+    line-height: 50rpx;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display:-webkit-box; 
+    -webkit-box-orient:vertical; 
+    -webkit-line-clamp:2; 
+}
+
+.score-list .score-list-item .price {
+    font-family: Arial;
+    color: #fd8f01;
+    font-size: 32rpx;
+    font-weight: 600;
+}
+
+.score-list .score-list-item.disabled .ticket {
+    display: none;
+}
+
+.score-list .score-list-item .ticket {
+    color: #fd8f01;
+    font-size: 24rpx;
+    border: 2rpx solid #fd8f01;
+    padding: 2rpx 8rpx;
+    border-radius: 10rpx;
+    font-family: Arial;
+}
+
+.score-list .score-list-item.disabled .ticket {
+    color: #c5c5c5;
+}
+
+.score-list .score-list-item .s-icon1 {
+    margin: 0 10rpx;
+    border-color: #00B358;
+}
+
+.score-list .score-list-item .s-icon2 {
+    margin: 0 10rpx;
+    border-color: #f06463;
+}
+
+.score-list .score-list-item .tags {
+    width: 160rpx;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    margin-right: 138rpx;
+    margin-top: 34rpx;
+    top: 0;
+}

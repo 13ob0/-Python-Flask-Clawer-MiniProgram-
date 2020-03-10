@@ -1,0 +1,25 @@
+<view class="page-wrapper ">
+    <view>
+        <button bindtap='refresh'>刷新成绩</button>
+        <block wx:for="{{item_scores}}" wx:key="u">
+            <view class="score-list js_score_list ">
+                <view data-supplierid="100020" data-key="" class="score-list-item  ">
+                    <view class="score-time">{{item.classScore}}</view>
+                    <view class="scoreinfo">
+                        <text>绩点\n{{item.GPA}}</text>
+                    </view>
+                    <view class="detail">
+                        <view class="detail1">
+                            <view class="start">
+                                <text class="icon-circle s-icon1"></text>{{item.className}}</view>                          
+                        </view>
+                        
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+
+
+
+</view>

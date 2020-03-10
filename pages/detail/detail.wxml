@@ -1,0 +1,1 @@
+<image wx:if='{{src}}' src='{{src}}?{{timestamp}}' mode="widthFix"></image>

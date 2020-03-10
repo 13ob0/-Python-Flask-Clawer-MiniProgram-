@@ -1,0 +1,24 @@
+<view class="page-wrapper ">
+    <view>
+        <button bindtap='refresh'>刷新通知</button>
+        <block wx:for="{{item_notes}}" wx:key="i">
+            <view class="note-list js_note_list ">
+                <view data-supplierid="100020" data-key="" class="note-list-item  ">
+                    <view class="note-time">{{item.notesNum}}</view>
+                    <view class="noteinfo" bindtap='detail' id='{{index+1}}'>
+                        <text>查看\n详情</text>
+                    </view>
+                    <view class="detail">
+                        <view class="detail1">
+                            <view class="start">
+                                <text class="icon-circle s-icon1"></text>{{item.notesName}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+
+
+
+</view>

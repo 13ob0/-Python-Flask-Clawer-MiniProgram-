@@ -1,0 +1,39 @@
+<view class="page-wrapper ">
+    <view>
+        <view>
+            <button bindtap='reLogin'>重新登录</button>
+            <button bindtap='selTerm'>选择学期</button>
+            <view>
+                <picker 
+                  bind:sure="_sure" 
+                  bind:close="_close" 
+                  pickData="{{listData}}" 
+                  open="{{openPicker}}"
+                  sureStyle=""
+                  cancelStyle=""
+                  indicatorStyle=""
+                  maskStyle=""
+                />
+                </view>
+        </view>
+        <block wx:for="{{item_class}}" wx:key="">
+            <view class="class-list js_class_list ">
+                <view data-supplierid="100020" data-key="" class="class-list-item  ">
+                    <view class="class-time">{{item.classTime}}</view>
+                    <view class="classinfo">
+                        <text>{{item.classTea}}\n{{item.classLoc}}</text>
+                    </view>
+                    <view class="detail">
+                        <view class="detail1">
+                            <view class="start">
+                                <text class="icon-circle s-icon1"></text>{{item.className}}</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </block>
+    </view>
+
+
+
+</view>
