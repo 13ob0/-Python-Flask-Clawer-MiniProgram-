@@ -1,5 +1,10 @@
 # -Python-Flask-Clawer-MiniProgram-
 
+## 技术栈
+
+* Flask, requests, selenium, xpath
+* html, js, css
+
 ## 程序结构
 
 * 基于Flask的后端服务器
