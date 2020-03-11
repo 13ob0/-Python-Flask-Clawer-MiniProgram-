@@ -17,7 +17,7 @@
 
 * login: 登录界面
 
-  ![登录界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/41583885856_.pic.jpg?raw=true)
+  ![登录界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/41583885856_.pic.jpg?raw=true =100x100)
 
 * table: 课程表界面，可以选择学年和学期
 
