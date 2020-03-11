@@ -16,6 +16,20 @@
 ### 微信小程序
 
 * login: 登录界面
+
+  ![登录界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/41583885856_.pic.jpg?raw=true)
+
 * table: 课程表界面，可以选择学年和学期
+
+  ![登录界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/51583885862_.pic.jpg?raw=true)
+
 * scores: 在校成绩界面
+
+  ![登录界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/61583885868_.pic.jpg?raw=true)
+
 * note: 学校官网新闻和通知界面，可以保存图片和转发
+
+  ![新闻界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/71583885874_.pic.jpg?raw=true)
+
+  ![新闻界面](https://github.com/13ob0/-Python-Flask-Clawer-MiniProgram-/blob/master/img/81583885880_.pic.jpg?raw=true)
+
